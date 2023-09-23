@@ -12,6 +12,7 @@ Welcome to the Tic Tac Toe game assignment! This project is focused on developin
 6. [Support](#support)
 
 ## Game Overview
+![Game Interface](https://github.com/Abdul-MalikSardalov/tic-tac-toe-game/assets/129803575/2417b606-cdfb-4c46-8447-64a905693077)
 
 ### Introduction
 
