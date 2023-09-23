@@ -7,7 +7,7 @@ import addGoHandler from './handlers/addGoHandler.js';
 
 const createCells = () => {
     dom.message.innerHTML =
-        dom.goes === 'circle' ? "Circle's goes first" : 'Crosses goes first';
+        dom.goes === 'circle' ? "O's goes first" : `X's goes first`;
 
     dom.circleCountDom.innerText = data.circleCount;
     dom.crossesCountDom.innerText = data.crossesCount;

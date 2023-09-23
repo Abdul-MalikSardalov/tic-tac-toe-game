@@ -17,7 +17,7 @@ const checkScoreHandler = () => {
 
             allSquares.forEach(
                 (square) => square.removeEventListener('click', addGoHandler),
-                (dom.message.innerHTML = 'Circles win'),
+                (dom.message.innerHTML = `O's win`),
                 data.circleCount++,
             );
             return;
@@ -33,7 +33,7 @@ const checkScoreHandler = () => {
             haveWinner = true;
             allSquares.forEach(
                 (square) => square.removeEventListener('click', addGoHandler),
-                (dom.message.innerHTML = 'Crosses win'),
+                (dom.message.innerHTML = `X's win`),
                 data.crossesCount++,
             );
             return;
