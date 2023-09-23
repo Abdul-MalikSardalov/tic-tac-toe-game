@@ -10,6 +10,10 @@ const data = {
         [0, 4, 8],
         [2, 4, 6],
     ],
+
+    circleCount: 0,
+    crossesCount: 0,
+    drawsCount: 0,
 };
 
 export default data;

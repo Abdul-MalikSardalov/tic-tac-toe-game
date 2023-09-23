@@ -12,7 +12,27 @@
             <div class="messages-container">
                 <p class="message">Circles goes first</p>
             </div>
-            <button class="restartBtn">Restart Game</button>
+            <div class="btns-container">
+                <button class="restartBtn">Restart Game</button>
+                <button class="resetResults">Reset Results</button>
+            </div>
+        </div>
+        <div class="result-container">
+            <p>Results Table</p>
+            <table class="result-table">
+                <tbody>
+                    <tr>
+                        <td>Circles</td>
+                        <td>Crosses</td>
+                        <td>Draws</td>
+                    </tr>
+                    <tr>
+                        <td class="circles-count">0</td>
+                        <td class="crosses-count">0</td>
+                        <td class="draws-count">0</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
         <script type="module" src="./src/init.js"></script>
     </body>
